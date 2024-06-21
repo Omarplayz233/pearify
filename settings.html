@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title id="extension-title">Pearify Config</title>
+  <style>
+    @font-face {
+      font-family: 'Gothic';
+      src: url('fonts/gothic-regular.ttf') format('truetype');
+      /* Add additional font formats here if needed */
+    }
+
+    body {
+      background-color: #ffffff;
+      font-family: "Gothic";
+      position: relative; /* Ensure relative positioning for absolute positioning */
+    }
+    .container {
+      width: 450px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #90ee90;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      position: relative; /* Ensure the container is positioned relative for absolute positioning */
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #000000;
+      text-align: left;
+    }
+    .settings {
+      margin-top: 20px;
+    }
+    .setting {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .setting label {
+      margin-right: 10px;
+      text-align: left;
+    }
+    .setting input[type="checkbox"] {
+      margin-right: 5px;
+    }
+    .setting input[type="range"] {
+      width: 150px;
+    }
+    .credits {
+      margin-top: 20px;
+    }
+    .credits-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    .credit {
+      margin-bottom: 10px;
+    }
+    .credit-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 5px;
+    }
+    .credit .name {
+      font-weight: bold;
+      flex: 1;
+      margin-right: 10px;
+    }
+    .credit .details {
+      flex: 2;
+      font-size: 14px;
+      color: #555555;
+    }
+    .credit .icon {
+      width: 20px; /* Adjust the width and height as needed */
+      height: 20px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+    /* Style for cogwheel icon */
+    .cogwheel-icon {
+      position: absolute;
+      top: -150px; /* Adjust to position above the container */
+      right: -125px; /* Adjust to position outside the container */
+      width: 400px; /* Adjust size as needed */
+      height: 400px;
+      z-index: 1; /* Ensure it's above other content */
+    }
+    /* Style for question mark icon */
+    .question-mark-icon {
+      position: absolute;
+      bottom: 20px; /* Adjust vertical position */
+      right: 20px; /* Adjust horizontal position */
+      width: 40px; /* Adjust size as needed */
+      height: 40px;
+      cursor: arrow;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="icons/cogwheel.png" class="cogwheel-icon" alt="Cogwheel">
+    <div class="title" id="extension-title">Pearify Config</div>
+    <div class="settings">
+      <div class="setting">
+        <label for="disableExtension">Enable Extension</label>
+        <input type="checkbox" id="disableExtension" />
+      </div>
+      <div class="setting">
+        <label for="appearChance">Apply Overlay (%):</label>
+        <input type="range" id="appearChance" min="0" max="100" value="100" />
+      </div>
+      <div class="setting">
+        <label for="flipChance">Flip Chance (%):</label>
+        <input type="range" id="flipChance" min="0" max="100" value="25" />
+      </div>
+    </div>
+    <div class="credits">
+      <div class="credits-title">Credits</div>
+      <div class="credit">
+        <div class="credit-container">
+          <div class="name">
+             Magic John <img class="icon" src="icons/kofi.png" id="icon" alt="Kofi"> <img class="icon" src="icons/youtube.png" id="icon" alt="Youtube"> <img class="icon" src="icons/discord.png" id="icon" alt="Discord">
+          </div>
+          <div class="details">
+            - Orig. Extension (MrBeastify)<br>
+            - Coding Help
+          </div>
+        </div>
+      </div>
+      <div class="credit">
+        <div class="credit-container">
+          <div class="name">
+             Abloon/Atreus <img class="icon" src="icons/discord.png" id="icon" alt="Discord"> <img class="icon" src="icons/youtube.png" id="icon" alt="Youtube">
+          </div>
+          <div class="details">
+            - Orig. Concept<br>
+            - Coding Help<br>
+            - idk
+          </div>
+        </div>
+      </div>
+      <div class="credit">
+        <div class="credit-container">
+          <div class="name">
+             omarplayz. <img class="icon" src="icons/discord.png" id="icon" alt="Discord"> <img class="icon" src="icons/github.png" id="icon" alt="Github">
+          </div>
+          <div class="details">
+            - Main Coder<br>
+            - PearTube Logo Creator<br>
+            - Tester
+          </div>
+        </div>
+      </div>
+      <div class="credit">
+        <div class="credit-container">
+          <div class="name">
+             ASuperCoolioDudio <img class="icon" src="icons/discord.png" id="icon" alt="Discord">
+          </div>
+          <div class="details">
+            - Images of Tropius
+          </div>
+        </div>
+      </div>
+      <div class="credit">
+        <div class="credit-container">
+          <div class="name">
+             Ramboni <img class="icon" src="icons/discord.png" id="icon" alt="Discord">
+          </div>
+          <div class="details">
+            - Images of Tropius
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="icons/help.png" class="question-mark-icon" id="help-button" alt="Question Mark">
+    </div>
+    <script src="settings.js"></script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Pearify",
+    "version": "1.0",
+    "icons": {
+        "1280": "icon.png"
+    },
+    "description": "Modify YouTube thumbnails to include RoyalPear's mascot, Tropius",
+    "browser_action": {
+        "default_popup": "settings.html"
+    },
+    "permissions": [
+        "storage",
+        "*://*.youtube.com/*"
+    ],
+    "content_scripts": [{
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["pearify.js"],
+        "run_at": "document_idle"
+    }],
+    "web_accessible_resources": [
+        "images/*.png",
+        "images/*.json",
+        "logo/*.png",
+        "icons/*.png",
+        "devious/DO-NOT-OPEN.png",
+        "fonts/*.ttf"
+    ]
+}
