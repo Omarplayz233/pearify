@@ -26,8 +26,6 @@ This includes the thumbnails, thumbnails, thumbnails... oh and the logo too.
 
 We don't want edge, it sucks fr.
 
-[![Button Download Chrome]][Download Chrome]  
-
 <!----------------------------------------------------------------------------->
 
 [Button Download Firefox]: https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logoColor=white&logo=Firefox
