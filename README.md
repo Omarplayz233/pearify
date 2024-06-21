@@ -1,14 +1,19 @@
 <div align = center >
 
-# MrBeastify
+# YouTube Pearify
 
-Is your browser experience boring? Are you having  
-trouble finding engaging click-baity videos?
+Do you find that the YouTube page is a bit lacking?
+Do you find it deprived of something?
 
 **Fear no more.**
 
-This extension adds the famous  
-youtuber **MrBeast** to every thumbnail.
+This funny extension adds the famous YouTuber **RoyalPear** (or tropius)
+to every nook and cranny of YouTube! (also featuring nera and aren) 
+This includes:
+- thumbnails
+- thumbnails
+- ..and more thumbnails..
+- oh yeah the logo too
 
 [![Button Download Firefox]][Download Firefox]  
 [![Button Download Chrome]][Download Chrome]  
@@ -18,9 +23,9 @@ youtuber **MrBeast** to every thumbnail.
 
 ## Notes
 
-- This extension should be compatible with any Firefox / Chromium based browser.
-- This extension was inspired by **[Unnecessary Inventions][UI YouTube]** and his **[Website][UI Website]**.
-- This extension is unofficial and not affiliated with MrBeast or YouTube.
+- This extension is heavily inspired by; and takes code from the original extension: **[MrBeastify][UI Website]**, by **[MagicJohn][UI YouTube]**.
+- This extension is not officialy affiliated with YouTube, RoyalPear, nor Tropius.
+- Don't expect this to be updated much. 
 
 ## Microsoft Edge <a id="microsoftedge"></a>
 
@@ -40,5 +45,5 @@ Microsoft Edge support has been ended, and the extension has been delisted. This
 [Download Chrome]: http://chrome.google.com/webstore/detail/youtube-mrbeastify/dbmaeobgdodeimjdjnkipbfhgeldnmeb
 [Download Edge]: #microsoftedge
 
-[UI YouTube]: http://www.youtube.com/@UnnecessaryInventions
-[UI Website]: http://www.mrbeastify.com/
+[UI YouTube]: https://www.youtube.com/@magicjinn
+[UI Website]: https://chromewebstore.google.com/detail/youtube-mrbeastify/dbmaeobgdodeimjdjnkipbfhgeldnmeb
