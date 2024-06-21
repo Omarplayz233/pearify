@@ -9,11 +9,7 @@ Do you find it deprived of something?
 
 This funny extension adds the famous YouTuber **RoyalPear** (or tropius)
 to every nook and cranny of YouTube! (also featuring nera and aren) 
-This includes:
-- thumbnails
-- thumbnails
-- ..and more thumbnails..
-- oh yeah the logo too
+This includes the thumbnails, thumbnails, thumbnails... oh and the logo too.
 
 [![Button Download Firefox]][Download Firefox]  
 [![Button Download Chrome]][Download Chrome]  
