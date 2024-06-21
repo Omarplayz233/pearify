@@ -7,7 +7,7 @@ Do you find it deprived of something?
 
 **Fear no more. Because:**
 
-This funny extension adds the famous YouTuber **[RoyalPear][UI YouTube (RoyalPear]** (or tropius)
+This funny extension adds the famous YouTuber **[RoyalPear][UI YouTube (RoyalPear)]** (or tropius)
 to every nook and cranny of YouTube! (also featuring nera and aren) 
 This includes the thumbnails, thumbnails, thumbnails... oh and the logo too, and an easter egg :)
 
