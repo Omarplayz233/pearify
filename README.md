@@ -21,7 +21,7 @@ This includes the thumbnails, thumbnails, thumbnails... oh and the logo too, and
 - This extension is heavily inspired by; and takes code from the original extension: **[MrBeastify][UI Website]**, by **[MagicJohn][UI YouTube (MagicJohn)]**.
 - This extension is not officialy affiliated with YouTube, RoyalPear, nor Tropius.
 - Don't expect this to be updated much.
-- Extension is forked, even if it doesn't mention abt it, please credits to [the source repo from MagicJohn](https://github.com/MagicJinn/MrBeastify-Youtube)
+- Extension is forked, even if it doesn't mention abt it, please credits to [the source repo from MagicJohn](https://github.com/MagicJinn/MrBeastify-Youtube).
 
 ## Microsoft Edge <a id="microsoftedge"></a>
 
